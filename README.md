@@ -14,6 +14,7 @@ After the Gamestop fiasco with the subredit Wallstreetbets, I became very intere
 - statsmodels
 - requests
 - plotly
+- matplotlib
 
 # Results
 - The AIC of our mode is small at -20964.701. But does this equate to a good model? Probably not.
