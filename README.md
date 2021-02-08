@@ -22,4 +22,4 @@ After the Gamestop fiasco with the subredit Wallstreetbets, I became very intere
 - At one point the model prediction was off by 144, these trades would have resulted in enormous losses. 
 
 # Future Work
-Accuracy is important. The goal in the future will be reducing the width (standard deviation) of the distributions of residuals
+Accuracy is important. The goal in the future will be reducing the mean absolute error of the residuals
