@@ -1,6 +1,14 @@
 # These are the functions used throughout the Jupyter notebook
 # Feel free to copy and play with them in your own environment
 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import requests
+
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+from statsmodels.tsa.arima_model import ARMA
+
 def get_data(symbol,
              client_id,
              periodType = 'year',
